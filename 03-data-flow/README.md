@@ -24,3 +24,7 @@ flowchart LR
 | Portal to claims system | D01 to D04 | Encryption in transit; input validation |
 | Claims system to AI service | D16 (minimised) | Only needed fields sent; contract with processor |
 | AI output to handler | D07, D17 | Role-based access; handler can override |
+| Customer call to recording platform | D13 | Callers told the call is recorded; playback limited to authorised staff; retention set by purpose |
+| Claimant or medical provider to document store | D05 | Restricted access; encryption in transit and at rest; excluded from AI input unless necessity is documented in the DPIA |
+| Claims system to payment system and bank | D09 | Payment staff only; approval step before payment; access logged |
+| Claims system to fraud team | D08 | Escalation only after handler review; access logged; a fraud flag is never treated as proof |

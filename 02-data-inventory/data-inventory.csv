@@ -1,0 +1,9 @@
+id,data_item,category,source,system,owner,purpose,lawful_basis_assumed,retention_assumed,classification,access
+D01,Name and contact details,Personal,Customer portal or phone,Claims management system,Claims Operations,Identify and contact the claimant,Contract [verify],7 years after claim closure,Confidential,Claims handlers
+D02,Policy number and coverage,Personal,Policy administration system,Claims management system,Underwriting,Verify cover for the claim,Contract [verify],7 years after claim closure,Confidential,Claims handlers
+D03,Claim description and incident date and location,Personal,Portal or handler notes,Claims management system,Claims Operations,Assess the claim,Contract [verify],7 years after claim closure,Confidential,Claims handlers
+D04,Photographs of damage,Personal (may include third parties),Customer or repair garage,Document store,Claims Operations,Assess damage,Contract or legitimate interests [verify],7 years after claim closure,Confidential,Claims handlers
+D05,Injury report or medical document,Special category (health),Claimant or medical provider,Document store,Claims Operations,Assess injury claims,Contract plus an Article 9 condition [verify],7 years after claim closure,Restricted,Authorised handlers only
+D06,Claims history,Personal,Claims management system,Claims management system,Claims Operations,Inform risk scoring,Legitimate interests [verify],7 years after claim closure,Confidential,Claims handlers
+D07,AI risk score and priority,Personal (derived),AI model service,Cloud database,Claims Analytics,Prioritise claims for review,Legitimate interests [verify],To be defined,Restricted,Handlers and managers
+D08,Fraud flag,Personal (derived; may relate to alleged offences),AI model and fraud team,Cloud database,Fraud team,Identify claims for further review,Legitimate interests or legal obligation [verify],To be defined,Restricted,Fraud team only

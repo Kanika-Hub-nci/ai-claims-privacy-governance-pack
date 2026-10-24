@@ -37,3 +37,6 @@ It should be restricted at every step:
 - Encrypted in transit and at rest.
 - Access logged and monitored.
 - Not copied into general emails or notes.
+  C -->|"D05 health data, restricted"| M["Document store (restricted access)"]
+  M --> F
+  style M fill:#fde2e2,stroke:#c00

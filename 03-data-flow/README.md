@@ -40,3 +40,4 @@ It should be restricted at every step:
   C -->|"D05 health data, restricted"| M["Document store (restricted access)"]
   M --> F
   style M fill:#fde2e2,stroke:#c00
+**Roles (assumed, to be confirmed in the DPIA):** Example Mutual Insurance DAC (fictional) is the controller. The third-party AI model provider, the cloud database host and the call recording platform provider are proposed processors, each under an Article 28 contract.
